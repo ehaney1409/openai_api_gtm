@@ -131,7 +131,7 @@ with st.form("step_3"):
 
                 - Include the original prospect company website mentioned above.
 
-                - Include a short email message from selling company to prospect company, aligned with selling company's product offering. In less than 125 words. In English. Casual, Quirky Tone. 
+                - Write an email message from selling company to prospect company, aligned with selling company's product offering. This email should attempt to sell prospect company the selling company's product.In less than 125 words. In English. Casual, Quirky Tone."
 
                 format should be:
                 {{"value_proposition": value_proposition,
