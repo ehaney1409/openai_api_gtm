@@ -165,7 +165,7 @@ with st.form("step_3"):
                 #print confirm
                 st.write(i + " is done!")
             except Exception as e:
-                st.write(e)
+                #st.write(e)
                 st.write(i + " has failed :(")
                 continue
     
