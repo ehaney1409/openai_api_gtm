@@ -89,7 +89,7 @@ with st.form("step_3"):
         #set URL to be enriched
         URLx = sell_from
         #get content 
-        page = requests.get(URLx)
+        page = requests.get(URLx, timeout=10)
         #transform content 
         soup = BeautifulSoup(page.content, "html.parser")
         #clean content
