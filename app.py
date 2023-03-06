@@ -14,7 +14,7 @@ import json
     
 
 finaldf = pd.DataFrame()
-st.title("Data Enrichment with Open AI")
+st.title("Sprout Social GTM with Open AI")
 st.markdown('---')
 st.markdown('###### This app aims to enrich a **SELL TO** list of prospect companies and provide unique messaging based on the **SELL FROM** company information. Just follow the steps/prompts below. It''s easy!')
 st.markdown('---')
