@@ -13,17 +13,7 @@ from bs4 import BeautifulSoup
 import json
     
 
-finaldf = pd.DataFrame()
-st.title("GTM with Open AI")
-st.markdown('---')
-st.markdown('###### This app aims to enrich a **SELL TO** list of prospect companies and provide unique messaging based on the **SELL FROM** company information. Just follow the steps/prompts below. It''s easy!')
-st.markdown('---')
-st.title("Steps")
-st.markdown('#### Step 1: Set and Generate SELL FROM info')
-st.markdown('#### Step 2: Upload SELL TO List')
-st.markdown('#### Step 3: Process with OpenAI')
-st.markdown('#### Step 4: Download Enriched CSV')
-st.markdown('---')
+
 
 st.title("Prompts")
 st.markdown('## Step 1: Set and Generate SELL FROM info')
