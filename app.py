@@ -121,25 +121,34 @@ with st.form("step_3"):
 
                 In a JSON format:
 
-                - Give me the value proposition of the prospect company. In less than 25 words. In English. Casual Tone. Format is: "[Company Name] helps [target audience] [achieve desired outcome] and [additional benefit]"
+                - Give me the value proposition of the prospect company. In less than 50 words. In English. Casual Tone. Format is: "[Company Name] helps [target audience] [achieve desired outcome] and [additional benefit]"
 
                 - Give me the industry of the prospect company. (Classify using this industry list: [Energy, Materials, Industrials, Consumer Goods, Health Care, Wellness & Fitness, Finance, Software, Communication, Entertainment, Utilities, Agriculture, Arts, Construction, Education, Legal, Manufacturing, Public Administration, Advertisements, Real Estate, Recreation & Travel, Retail, Transportation & Logistics])
 
-                - Guess the target audience of each prospect company.(Classify and choose 1 from this list: [Sales Teams, Marketing Teams, Product Teams, HR teams, Customer Service Teams, Consumers, C-levels, Data Teams, DevOps Teams, Programmers, Finance Teams])
+                - Guess the target audience of each prospect company.(Classify and choose 1 from this list: [Sales Teams, Marketing Teams, Product Teams, HR teams, Customer Service Teams, Consumers, Data Teams, DevOps Teams, Programmers, Finance Teams])
 
                 - Tell me if the prospect company is B2B or B2C.
+                
+                - Tell me the company's Twitter handle.
+                
+                - Give me the number of followers associated with that Twitter handle.
+                
+                - Tell me the company's revenue.
+                
+                - Tell me the company's employee count.
 
                 - Include the original prospect company website mentioned above.
-
-                - Write an email message from selling company to prospect company, aligned with selling company's product offering. This email should attempt to sell prospect company the selling company's product.In less than 125 words. In English. Casual, Quirky Tone."
 
                 format should be:
                 {{"value_proposition": value_proposition,
                 "industry": industry,
                 "target_audience": target_audience, 
                 "market": market,
-                "website": website,
-                "short_email": short_email}}
+                "twitter_handle": twitter_handle,
+                "twitter_followers": twitter_followers,
+                "revenue": revenue,
+                "employee_count": employee_count,
+                "website": website}}
 
                 JSON:
                 """
