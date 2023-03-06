@@ -124,6 +124,8 @@ with st.form("step_3"):
                 - Give me the value proposition of the prospect company. In less than 50 words. In English. Casual Tone. Format is: "[Company Name] helps [target audience] [achieve desired outcome] and [additional benefit]"
 
                 - Give me the industry of the prospect company. (Classify using this industry list: [Energy, Materials, Industrials, Consumer Goods, Health Care, Wellness & Fitness, Finance, Software, Communication, Entertainment, Utilities, Agriculture, Arts, Construction, Education, Legal, Manufacturing, Public Administration, Advertisements, Real Estate, Recreation & Travel, Retail, Transportation & Logistics])
+                
+                - Give me the market segment of the prospect company. (Classify using this industry list: [SMB, Mid-Market, Enterprise])
 
                 - Guess the target audience of each prospect company.(Classify and choose 1 from this list: [Sales Teams, Marketing Teams, Product Teams, HR teams, Customer Service Teams, Consumers, Data Teams, DevOps Teams, Programmers, Finance Teams])
 
@@ -134,8 +136,9 @@ with st.form("step_3"):
                 format should be:
                 {{"value_proposition": value_proposition,
                 "industry": industry,
+                "market_segment": market_segment,
                 "target_audience": target_audience, 
-                "market": market,
+                "business_model": business_model,
                 "website": website}}
 
                 JSON:
