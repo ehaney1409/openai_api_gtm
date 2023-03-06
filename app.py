@@ -14,7 +14,7 @@ import json
     
 
 finaldf = pd.DataFrame()
-st.title("GTM with Open AI")
+st.title("Data Enrichment with Open AI")
 st.markdown('---')
 st.markdown('###### This app aims to enrich a **SELL TO** list of prospect companies and provide unique messaging based on the **SELL FROM** company information. Just follow the steps/prompts below. It''s easy!')
 st.markdown('---')
@@ -128,14 +128,6 @@ with st.form("step_3"):
                 - Guess the target audience of each prospect company.(Classify and choose 1 from this list: [Sales Teams, Marketing Teams, Product Teams, HR teams, Customer Service Teams, Consumers, Data Teams, DevOps Teams, Programmers, Finance Teams])
 
                 - Tell me if the prospect company is B2B or B2C.
-                
-                - Tell me the company's Twitter handle.
-                
-                - Give me the number of followers associated with that Twitter handle.
-                
-                - Tell me the company's revenue.
-                
-                - Tell me the company's employee count.
 
                 - Include the original prospect company website mentioned above.
 
@@ -144,10 +136,6 @@ with st.form("step_3"):
                 "industry": industry,
                 "target_audience": target_audience, 
                 "market": market,
-                "twitter_handle": twitter_handle,
-                "twitter_followers": twitter_followers,
-                "revenue": revenue,
-                "employee_count": employee_count,
                 "website": website}}
 
                 JSON:
