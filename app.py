@@ -125,7 +125,7 @@ with st.form("step_3"):
 
                 - Guess the target audience of each prospect company.(Classify and choose 1 from this list: [Sales Teams, Marketing Teams, Product Teams, HR teams, Customer Service Teams, Consumers, Data Teams, DevOps Teams, Programmers, Finance Teams])
                 
-                - Tell me where this company's headquarters is located.
+                - Tell me where this company's headquarters is located. Format is: "City, State/Province"
                 
                 - Give me the industry of the prospect company. (Classify using this industry list: [Energy, Materials, Industrials, Consumer Goods, Health Care, Wellness & Fitness, Finance, Software, Communication, Entertainment, Utilities, Agriculture, Arts, Construction, Education, Legal, Manufacturing, Public Administration, Advertisements, Real Estate, Recreation & Travel, Retail, Transportation & Logistics])
                 
